@@ -26,7 +26,9 @@ To run this program as standalone you need to have latest version of java instal
 
 Simple initialize a java.util.logging.logger by calling the getLogger(Class<?> class, String filePath, String fileName, int fileSize, int count) with these parameters.
 
-> import java.util.logging.logger;
+> 
+import java.util.logging.logger;
+
 public class TestJulRollHandler 
 {
 	private final Logger jul = JulRollHandler.getLogger(TestJulRollHandler.class, null, "jul.log", 1024*1024, 20);
