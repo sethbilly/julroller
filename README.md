@@ -20,13 +20,13 @@ I finally had to settle on the java util logging class and extend it to give the
 
 ##Install
 
-To run this program as standalone you need to have latest version of java installed and the build tool used is maven.
+To run this program as standalone you need to have latest version of [java](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed and the build tool used is [maven](https://maven.apache.org/download.cgi).
 
 ##Usage
 
 Simple initialize a java.util.logging.logger by calling the getLogger(Class<?> class, String filePath, String fileName, int fileSize, int count) with these parameters.
 
-> 
+```sh
 import java.util.logging.logger;
 
 public class TestJulRollHandler 
@@ -43,6 +43,7 @@ public class TestJulRollHandler
         }
 	}
 }
+```
 
 ##API
 
